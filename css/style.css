@@ -75,11 +75,11 @@ body {
     margin: 0;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .brand-card img {
         max-width: 50px;
     }
-}
+} */
 
 /* car card */
 
@@ -205,12 +205,21 @@ body {
     background-color: #eef1fb;
 }
 
-.video-section img {
-    margin: 0;
-    border-radius: 1rem 0 0 1rem;
+.video-custom {
+    min-width: 100%;
+    min-height: 100%;
     max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0; /* Default for small devices */
 }
 
+@media (min-width: 768px) {
+    /* md devices and up */
+    .video-custom {
+        height: 100%;
+        border-radius: 1rem 0 0 1rem;
+    }
+}
 .video-top-right h5 span {
     padding: 5px;
     background-color: #ffffff;
