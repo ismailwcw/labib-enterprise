@@ -42,6 +42,14 @@ body {
     color: #050b20;
 }
 
+.category-btn {
+    background: rgba(255, 255, 255, 0.233) !important;
+    color: #f8f9fa !important;
+    border: px solid rgba(255, 255, 255, 0.253) !important;
+    border-radius: 50px !important;
+    /* backdrop-filter: blur(1.5px); */
+}
+
 .container-header a,
 .nav-link {
     font-size: 0.95rem;
