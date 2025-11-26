@@ -1,0 +1,4 @@
+<?php
+$brandname = "Labib-enterprise";
+
+?>
